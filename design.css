@@ -35,12 +35,15 @@
 }
 .titles {
   display: flex;
-  color: rgba(110, 110, 115, 1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 140px;
 }
 .title {
   display: flex;
   font-size: 44px;
   height: 100px;
+  color: rgba(110, 110, 115, 1);
 }
 .title--store {
   background: linear-gradient(
@@ -53,4 +56,21 @@
   width: fit-content;
   background-clip: text;
   color: transparent;
+}
+.help {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.holboos {
+  font-size: 14px;
+  color: rgba(0, 102, 204, 1);
+}
+.store_chat_icon {
+  width: 35px;
+  height: 35px;
+  align-items: flex-start;
+}
+.help-center {
+  display: flex;
 }
